@@ -32,11 +32,6 @@ namespace ReservaHotel.Models
             Suite = suite;
         }
 
-        public int ObterQuantidadeHospedes()
-        {
-            return Hospedes.Count;
-        }
-
         public decimal CalcularValorDiaria()
         {
             if (Suite != null)
